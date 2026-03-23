@@ -274,7 +274,7 @@ export default function Hero() {
 
                         {/* Download Resume */}
                         <a
-                            href="/resume.pdf"
+                            href={`${import.meta.env.BASE_URL}resume.pdf`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="cta-btn opacity-0 group px-8 py-4 rounded-2xl glass border border-arc/20 text-frost font-display font-semibold text-sm tracking-wide transition-all duration-300 hover:border-arc/50 hover:bg-arc/10 flex items-center"
